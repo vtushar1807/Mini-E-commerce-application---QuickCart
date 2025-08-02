@@ -24,7 +24,7 @@ export const CartComp = ()=>{
     cartItems && cartItems.length>0 ?           //If items are available in cart only then individual divs will be created with product details
     
     <>
-    <Container style={{height:"80vh"}} fluid="0" className="main-detail pt-2 ps-5">
+    <Container style={{height:"87vh"}} fluid="0" className="main-detail pt-2 ps-5">
     <Row className="w-100">
 
             <Col md="8">
@@ -75,10 +75,10 @@ export const CartComp = ()=>{
     : 
 
     // if there's no item in cart then this error page will appear
-    <Container style={{fontFamily:"cursive", textShadow:"1px 1px black"}} fluid="0" className="text-center mt-0 bg-secondary">            
+    <Container style={{fontFamily:"cursive", textShadow:"1px 1px black", backgroundColor: "rgba(168, 168, 168, 0.92)"}} fluid="0" className="text-center mt-0 p-3">            
     <Row style={{height:"250px"}} className="w-100">
         
-            <span style={{marginTop:"100px"}}  className="fs-3 text-white">🛒Cart is empty :(</span>
+            <span style={{marginTop:"100px"}}  className="fs-3 text-white">🛒 Cart is empty :(</span>
     </Row>
     </Container>
 } 
