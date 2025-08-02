@@ -18,7 +18,7 @@ const store = configureStore({
     productRed:ProductSliceReducer.reducer,
     skipRed:SkipSliceReducer.reducer,
     cartRed:CartSliceReducer.reducer,
-    productDetailRed:ProductDetailSliceReducer.reducer,
+    productDetailRed:ProductDetailSliceReducer.reducer
   }
 })
 
