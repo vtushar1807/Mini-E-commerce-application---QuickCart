@@ -1,0 +1,93 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.navDiv {
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.884);
+  padding: 23px 0px 23px 0px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.navLink {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-left: 23px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+span{
+  margin:4px 2px;
+}
+.discountSPan{
+  color:green;
+  font-weight: bold;
+  font-size: 17px;
+}
+.shipping-span{
+  font-size: 15px;
+}
+.addTocart-button{
+  background-color: red;
+  font-weight: bold;
+}
+
+.item-thumbnail{
+  height:200px;
+  padding: 0px 100px 0px 100px;
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  cursor: pointer;
+}
+
+
+.dynamic-cart{
+  border-radius: 50%;
+  max-height:15px;
+  max-width:28px;
+  color:white;
+  background-color: rgb(13, 61, 219);
+  font-size: 11px;
+  margin-left: 0px;
+  padding: 2px;
+}
+
+.dynamic-float{
+  margin-left: 1000px;
+}
+h6{
+  display: inline;
+}
+.main-detail{
+
+  background-color: rgb(247, 245, 242);
+  cursor: pointer;
+}
+
+.float-detail{
+  float:right;
+  margin-top: 0;
+  font-size: 13px;
+  color:grey
+}
+.product-comment{
+  font-size: 14px;
+}
+.comment-div{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.subtotal-cart{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  display: inline-block;
+  width:400px;
+}
+.cart-items{
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
