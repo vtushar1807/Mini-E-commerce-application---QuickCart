@@ -14,7 +14,7 @@ export const NavBar = ()=>{
   const cartTotalItem = useSelector((store) => store.cartRed.cartItems)
 
     return(
-        <Navbar expand="sm" className="bg-body-tertiary mt-0 pt-0">
+        <Navbar expand="sm" className="bg-body-tertiary mt-0 p-0">
           <Container className='w-100' fluid="0">
             {/* This is given so that navbar be responsive across different screens */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />   
