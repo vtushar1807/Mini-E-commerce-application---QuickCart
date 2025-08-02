@@ -39,9 +39,9 @@ export const CartComp = ()=>{
                         <img style={{height:"100px"}}  src={items.thumbnail} alt="" />
                     </div>
 
-                    <div className="ms-5 p-2">
+                    <div className="ms-5 p-2 w-100 me-5">
                         <span onClick={()=>navigate(`/product/${items.id}`)} className="fw-bold">{items.title}</span><br/>
-                        <span onClick={()=>navigate(`/product/${items.id}`)} >{items.brand}</span><img onClick={() => dispatch(removeItemFromCart(items))} style={{position:"absolute", left:"930px"}} height="21px" src="https://img.icons8.com/?size=100&id=64k1WPeHn58b&format=png&color=FA5252" alt="" /><br/>
+                        <span onClick={()=>navigate(`/product/${items.id}`)} >{items.brand}</span> <span style={{float:"right"}}><img onClick={() => dispatch(removeItemFromCart(items))} height="21px" src="https://img.icons8.com/?size=100&id=64k1WPeHn58b&format=png&color=FA5252" alt="" /></span><br/>
                         <span onClick={()=>navigate(`/product/${items.id}`)} className="text-danger fw-bold">${items.price}</span>
                         <span onClick={()=>navigate(`/product/${items.id}`)} style={{fontSize:"10px", padding:"1px 6px 3px", borderRadius:"7px"}} className="bg-warning fw-bold">{items.discountPercentage}% OFF</span><br/>
                         <span onClick={()=>navigate(`/product/${items.id}`)} style={{fontSize:"10px"}} className="text-secondary">{items.availabilityStatus}</span>
@@ -75,10 +75,10 @@ export const CartComp = ()=>{
     : 
 
     // if there's no item in cart then this error page will appear
-    <Container fluid="0"  className="bg-secondary text-center mt-0">            
+    <Container style={{fontFamily:"cursive", textShadow:"1px 1px black"}} fluid="0" className="text-center mt-0 bg-secondary">            
     <Row style={{height:"250px"}} className="w-100">
         
-            <span style={{marginTop:"100px"}}  className="fs-3 text-white">🛒Cart is empty</span>
+            <span style={{marginTop:"100px"}}  className="fs-3 text-white">🛒Cart is empty :(</span>
     </Row>
     </Container>
 } 

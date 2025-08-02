@@ -6,7 +6,6 @@ import { configureStore } from '@reduxjs/toolkit'
 import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router'
 
-
 import { ProductSliceReducer } from './ReduxStore/productReducer.js'
 import { SkipSliceReducer } from './ReduxStore/skipReducer.js'
 import { CartSliceReducer } from './ReduxStore/cartReducer.js'

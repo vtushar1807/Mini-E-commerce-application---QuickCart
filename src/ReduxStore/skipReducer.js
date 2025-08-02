@@ -9,7 +9,7 @@ export const SkipSliceReducer = createSlice({
     name:"SkipSliceReducer",
     reducers:{
         increaseSkip:(state)=>{
-            tate.skip+=10;
+            state.skip+=10;
         }
     }
 })
