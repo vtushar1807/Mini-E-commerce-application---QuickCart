@@ -24,13 +24,13 @@ export const CartComp = ()=>{
     cartItems && cartItems.length>0 ?           //If items are available in cart only then individual divs will be created with product details
     
     <>
-    <Container fluid="0" className="main-detail pt-2 ps-5">
+    <Container style={{height:"80vh"}} fluid="0" className="main-detail pt-2 ps-5">
     <Row className="w-100">
 
             <Col md="8">
-            <h2 >Shopping Cart</h2>
+            <h2 className="pb-3 pt-3">Shopping Cart</h2>
             
-                <div style={{maxHeight:"78vh", overflowY:"auto", overflowX:"hidden"}}>
+                <div style={{maxHeight:"70vh", overflowY:"auto", overflowX:"hidden"}}>
                 {cartItems.map((items) => (
                     
                     <div className="bg-white cart-items mt-2" key={items.id}>
